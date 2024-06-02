@@ -6,3 +6,20 @@
   justify-content: center;
   height: 100dvh;
 }
+
+.container {
+  display: flex;
+  padding: 10px 8px;
+  gap: 6px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.input {
+  all: unset;
+  flex: 1;
+}
+
+.length {
+  color: #999;
+}

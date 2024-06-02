@@ -1,4 +1,4 @@
-# React Jotai Text Example
+# React Jotai Text
 
 - https://jotai.org/docs/introduction
 - https://tutorial.jotai.org/examples/textLenght
@@ -75,6 +75,7 @@ function atom<Value, Args extends unknown[], Result>(
 - 通过 `useAtom` 使用 atom 后，初始值才会存在状态中
 - 当一个 atom 不再被使用时，意味着使用它的所有组件都被卸载，并且原子配置不再存在，状态中的值将被垃圾回收
 - `setValue` 只接受一个参数，也就是 setter 写入函数的第三个参数
+- `useAtomValue` 和 `useSetAtom`
 
 ```tsx
 const [value, setValue] = useAtom(anAtom)
